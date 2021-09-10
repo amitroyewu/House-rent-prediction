@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 20:12
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -480,7 +480,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 (C:\Users\amitr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<methodology.png, id=3, 1083.29718pt x 510.40688pt>
+<methodology.png, id=27, 1083.29718pt x 510.40688pt>
 File: methodology.png Graphic file (type png)
 <use methodology.png>
 Package pdftex.def Info: methodology.png  used on input line 52.
@@ -490,6 +490,12 @@ Package pdftex.def Info: methodology.png  used on input line 52.
 
 
  <./methodology.png>]
+<pe.png, id=41, 578.16pt x 45.16875pt>
+File: pe.png Graphic file (type png)
+<use pe.png>
+Package pdftex.def Info: pe.png  used on input line 89.
+(pdftex.def)             Requested size: 202.35902pt x 15.80928pt.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -503,23 +509,16 @@ Before submitting the final camera ready copy, remember to:
 
 [2
 
-] (House Rent Price Prediction.aux)
-
-Package rerunfilecheck Warning: File `"House Rent Price Prediction".out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"House Rent Price Prediction".out':
-
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  AF84E91CE58C425D1111505589083B3F;719.
+ <./pe.png>] (House Rent Price Prediction.aux)
+Package rerunfilecheck Info: File `"House Rent Price Prediction".out' has not c
+hanged.
+(rerunfilecheck)             Checksum: AF84E91CE58C425D1111505589083B3F;719.
  ) 
 Here is how much of TeX's memory you used:
- 10536 strings out of 478864
- 158853 string characters out of 2848661
- 482172 words of memory out of 3000000
- 28302 multiletter control sequences out of 15000+600000
+ 10554 strings out of 478864
+ 159063 string characters out of 2848661
+ 482187 words of memory out of 3000000
+ 28320 multiletter control sequences out of 15000+600000
  444432 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,649b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -530,9 +529,9 @@ Here is how much of TeX's memory you used:
 mes/utmb8a.pfb><C:/Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (2 pages, 102266 bytes).
+Output written on "House Rent Price Prediction.pdf" (2 pages, 115567 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
