@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 12:00
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -486,6 +486,10 @@ File: methodology.png Graphic file (type png)
 Package pdftex.def Info: methodology.png  used on input line 52.
 (pdftex.def)             Requested size: 216.6556pt x 102.07956pt.
 
+[1{C:/Users/amitr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+ <./methodology.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -497,17 +501,16 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/amitr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[2
 
-
- <./methodology.png>] (House Rent Price Prediction.aux)
+] (House Rent Price Prediction.aux)
 Package rerunfilecheck Info: File `"House Rent Price Prediction".out' has not c
 hanged.
 (rerunfilecheck)             Checksum: AF84E91CE58C425D1111505589083B3F;719.
  ) 
 Here is how much of TeX's memory you used:
- 10513 strings out of 478864
- 158607 string characters out of 2848661
+ 10514 strings out of 478864
+ 158613 string characters out of 2848661
  481187 words of memory out of 3000000
  28286 multiletter control sequences out of 15000+600000
  437922 words of font info for 94 fonts, out of 8000000 for 9000
@@ -517,9 +520,9 @@ Here is how much of TeX's memory you used:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (1 page, 84418 bytes).
+Output written on "House Rent Price Prediction.pdf" (2 pages, 85994 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
