@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  10 SEP 2021 11:45
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -508,7 +508,7 @@ hanged.
 Here is how much of TeX's memory you used:
  10513 strings out of 478864
  158607 string characters out of 2848661
- 479187 words of memory out of 3000000
+ 481187 words of memory out of 3000000
  28286 multiletter control sequences out of 15000+600000
  437922 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -517,7 +517,7 @@ Here is how much of TeX's memory you used:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:
 /Users/amitr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (1 page, 84124 bytes).
+Output written on "House Rent Price Prediction.pdf" (1 page, 84418 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
