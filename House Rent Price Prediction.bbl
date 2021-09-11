@@ -21,6 +21,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{kumar2019house}
+A.~Kumar, ``House rent price prediction,'' 2019.
+
 \bibitem{c3}
 S.~Lu, Z.~Li, Z.~Qin, X.~Yang, and R.~S.~M. Goh, ``A hybrid regression
   technique for house prices prediction,'' in \emph{2017 IEEE International
