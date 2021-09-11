@@ -55,7 +55,7 @@ As we have discussed in the motivation part, house rent prediction work can be u
 \section{IMPLEMENTATION}
 \subsection{3.1 Data collection}
 The data is collected from Kaggle. The dataset is based on the house rental prices of different cities in India. There are 1,93,011 rows and 10 columns. The price attribute is the dependent attribute where the other nine attributes (Seller-Type, Bedroom, Layout-Type, Property-Type, Area, Furnish-Type, Bathroom and City) are independent attributes.
-\subsection{Model development}
+\subsection{3.3Model development}
 We have worked with 2 types of regression: linear and polynomial regression and will estimate the accuracy between the models. In our final dataset we have 193011 rows and 21 columns. The dataset is divided according to the attributes in two sets: one is independent set, and another is dependent set. Then we have divided them by test (20\%) and train (80\%) data. In train set, there are 154408 data and in test set, we have 38603 data.
 
 \textbf{Linear Regression(Simple and Multiple):}
@@ -95,6 +95,13 @@ Where,
 \\$\theta$1, $\theta$2, …, $\theta$n are the weights in the equation of the polynomial regression,
 \\and n is the degree of the polynomial.
 \\The number of higher-order terms increases with the increasing value of n.
+\subsection{3.4 Results}
+We have run polynomial and linear regression function to train (80\%) our data. Then test these algorithms by 20\% train data. Based on the test data we have run three types of accuracy function. R2-score, MSE (Mean Square Error) and RMSE (root Mean Square Error) is being used to find which of these two regressions is best for the dataset.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{performancetable}
+\caption{ Accuracy table for linear and polynomial regression}
+\end{figure}
 
 \bibliographystyle{IEEEtran}
 \bibliography{citation}

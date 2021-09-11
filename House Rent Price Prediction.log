@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.7)  12 SEP 2021 02:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.7)  12 SEP 2021 02:41
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -481,7 +481,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: Citation `park2015using' on page 1 undefined on input line 42.
 
-<methodology.png, id=37, 1083.29718pt x 510.40688pt>
+<methodology.png, id=41, 1083.29718pt x 510.40688pt>
 File: methodology.png Graphic file (type png)
 <use methodology.png>
 Package pdftex.def Info: methodology.png  used on input line 52.
@@ -490,12 +490,22 @@ Package pdftex.def Info: methodology.png  used on input line 52.
 
 
  <./methodology.png>]
-<pe.png, id=53, 578.16pt x 45.16875pt>
+<pe.png, id=57, 578.16pt x 45.16875pt>
 File: pe.png Graphic file (type png)
 <use pe.png>
 Package pdftex.def Info: pe.png  used on input line 91.
 (pdftex.def)             Requested size: 202.35902pt x 15.80928pt.
- (House Rent Price Prediction.bbl)
+<performancetable.png, id=58, 1081.79156pt x 260.47313pt>
+File: performancetable.png Graphic file (type png)
+<use performancetable.png>
+Package pdftex.def Info: performancetable.png  used on input line 102.
+(pdftex.def)             Requested size: 270.44724pt x 65.11812pt.
+
+Overfull \hbox (18.44724pt too wide) in paragraph at lines 102--103
+ [][] 
+ []
+
+(House Rent Price Prediction.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -507,21 +517,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
- <./pe.png>] (House Rent Price Prediction.aux)
+[2 <./pe.png> <./performancetable.png>] (House Rent Price Prediction.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"House Rent Price Prediction".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: BD62DE51561D0BFDEB855173204756CD;971.
+(rerunfilecheck)             Checksum: 23D3D750B199F20D4392227B20D9E8B5;1101.
  ) 
 Here is how much of TeX's memory you used:
- 10576 strings out of 478864
- 159275 string characters out of 2849135
- 482243 words of memory out of 3000000
- 28334 multiletter control sequences out of 15000+600000
+ 10589 strings out of 478864
+ 159564 string characters out of 2849135
+ 482244 words of memory out of 3000000
+ 28345 multiletter control sequences out of 15000+600000
  445568 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,649b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -532,9 +540,9 @@ pfb><C:/Users/Mona/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 utmb8a.pfb><C:/Users/Mona/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/Mona/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (2 pages, 121048 bytes).
+Output written on "House Rent Price Prediction.pdf" (2 pages, 138086 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
