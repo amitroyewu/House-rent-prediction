@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{park2015using}
+B.~Park and J.~K. Bae, ``Using machine learning algorithms for housing price
+  prediction: The case of fairfax county, virginia housing data,'' \emph{Expert
+  systems with applications}, vol.~42, no.~6, pp. 2928--2934, 2015.
+
 \bibitem{kumar2019house}
 A.~Kumar, ``House rent price prediction,'' 2019.
 

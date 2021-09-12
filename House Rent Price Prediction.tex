@@ -9,6 +9,8 @@
 \usepackage{anyfontsize}
 \usepackage {hyperref}
 \usepackage{authblk}
+\usepackage{caption}
+\usepackage{subcaption}
 \begin{document}
 \title{House Rent Prediction using polynomial and linear regression}
 \author[1]{ Amit Roy
@@ -39,9 +41,9 @@ With the mass growth of population around the world, it has become a challenge t
 \subsection{1.2 Motivation}
 As we live in a third world country, also a over populated one, finding a good place to live a life peacefully is not easy. Along with ourselves, we want to secure a good future for our next generations. But money is always a problem. So, in this project we are motivated by this idea and tried to do a better approach, so that, it can help us by predicting the rental price to make us learn, on which area has better facilities in our suited budget. If anyone wants to further invest on real estates, this approach can help them. Also, it can be the parameter to signify one area’s demand.
 \subsection*{1.3 Existing works}
-Several machine learning algorithms have been used in the past years in this field. A study has been done in Fairfax County, Virginia using several machine learning algorithms like Naïve Bayes, Ripper, Decision Tree, Adaboost etc. to predict the house prices.\cite{park2015using}
-Ridge and Lasso Linear regression is being used for house rent prediction.\cite{kumar2019house}
-Also, Hybrid Linear Regression is being used by combining Ridge and Lasso along with Gradient Boosting combination to find more accurate predicted values with higher accuracy.\cite{c3}
+Several machine learning algorithms have been used in the past years in this field. A study has been done in Fairfax County, Virginia using several machine learning algorithms like Naïve Bayes, Ripper, Decision Tree, Adaboost etc. to predict the house prices \cite{park2015using}.
+Ridge and Lasso Linear regression is being used for house rent prediction \cite{kumar2019house}.
+Also, Hybrid Linear Regression is being used by combining Ridge and Lasso along with Gradient Boosting combination to find more accurate predicted values with higher accuracy \cite{c3}.
 By all these studies, what we have done till now, we have seen using hybrid machine learning algorithms gives better result than only one algorithm. Also, regression is a common classifier in that field. So, we have chosen to work on this part in our project.
 \subsection*{1.4 Necessity}
 As we have discussed in the motivation part, house rent prediction work can be used in daily basis to predict rental prices. In house rental dataset there can be several fractional values as well as non-numerical values. So, using regression is the safe option, as it works with fractional values and the non-numeric values can be pre-processed before the algorithm runs. Being less time consumption is another plus point of regression. The rental price prediction approach can ease many  manual work and gives people high efficient work facilities. 
@@ -97,6 +99,28 @@ Where,
 \\The number of higher-order terms increases with the increasing value of n.
 \subsection{3.4 Results}
 We have run polynomial and linear regression function to train (80\%) our data. Then test these algorithms by 20\% train data. Based on the test data we have run three types of accuracy function. R2-score, MSE (Mean Square Error) and RMSE (root Mean Square Error) is being used to find which of these two regressions is best for the dataset.
+
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{linear}
+         \caption{Linear}
+         \label{fig:Linear}
+     \end{subfigure}
+     \qquad
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{poly}
+         \caption{Polynomial}
+         \label{fig:Polynomial}
+     \end{subfigure}
+     
+        \caption{Plot of linear and polynomial regression using expected and predicted values}
+        \label{fig:Plot of linear and polynomial regression using expected and predicted values}
+\end{figure}
+Here, we can see that, in polynomial regression, the points are nearer to the best fitted line than the linear regression.
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.25]{performancetable}
@@ -130,7 +154,7 @@ Here, n = number of data points\\
       Y\begin{footnotesize}
       i
       \end{footnotesize} = observed values and,\\
-      Y\begin{footnotesize}
+      $\widehat{Y}$\begin{footnotesize}
       i
       \end{footnotesize} = predicted values.\\
 \\      
