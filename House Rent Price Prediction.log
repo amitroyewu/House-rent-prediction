@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.12)  13 SEP 2021 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.12)  13 SEP 2021 00:30
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -509,46 +509,36 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 (C:\Users\SANIYAT SIMANTO\Desktop\Miktex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<methodology.png, id=42, 1083.29718pt x 510.40688pt>
+<methodology.png, id=50, 1083.29718pt x 510.40688pt>
 File: methodology.png Graphic file (type png)
 <use methodology.png>
 Package pdftex.def Info: methodology.png  used on input line 54.
 (pdftex.def)             Requested size: 216.6556pt x 102.07956pt.
-
-
-! LaTeX Error: File `one hot encoding' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \includegraphics[scale=0.4]{one hot encoding}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[1{C:/Users/SANIYAT SIMANTO/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+<one hot encoding.png, id=52, 471.26062pt x 161.85469pt>
+File: one hot encoding.png Graphic file (type png)
+<use one hot encoding.png>
+Package pdftex.def Info: one hot encoding.png  used on input line 65.
+(pdftex.def)             Requested size: 188.5009pt x 64.74072pt.
+ [1{C:/Users/SANIYAT SIMANTO/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
  <./methodology.png>]
-<pe.png, id=58, 578.16pt x 45.16875pt>
+<pe.png, id=67, 578.16pt x 45.16875pt>
 File: pe.png Graphic file (type png)
 <use pe.png>
 Package pdftex.def Info: pe.png  used on input line 103.
 (pdftex.def)             Requested size: 202.35902pt x 15.80928pt.
-<linear.png, id=59, 625.58719pt x 587.94656pt>
+<linear.png, id=68, 625.58719pt x 587.94656pt>
 File: linear.png Graphic file (type png)
 <use linear.png>
 Package pdftex.def Info: linear.png  used on input line 117.
 (pdftex.def)             Requested size: 103.19843pt x 96.98904pt.
-<poly.png, id=60, 622.57594pt x 586.44093pt>
+<poly.png, id=69, 622.57594pt x 586.44093pt>
 File: poly.png Graphic file (type png)
 <use poly.png>
 Package pdftex.def Info: poly.png  used on input line 124.
 (pdftex.def)             Requested size: 103.19843pt x 97.206pt.
-<performancetable.png, id=61, 1081.79156pt x 260.47313pt>
+<performancetable.png, id=70, 1081.79156pt x 260.47313pt>
 File: performancetable.png Graphic file (type png)
 <use performancetable.png>
 Package pdftex.def Info: performancetable.png  used on input line 136.
@@ -558,7 +548,7 @@ Overfull \hbox (18.44724pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-<mse.png, id=62, 337.26pt x 94.10156pt>
+<mse.png, id=71, 337.26pt x 94.10156pt>
 File: mse.png Graphic file (type png)
 <use mse.png>
 Package pdftex.def Info: mse.png  used on input line 161.
@@ -589,7 +579,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--162
 
  []
 
-[2 <./linear.png> <./poly.png> <./pe.png> <./performancetable.png>]
+[2 <./one hot encoding.png> <./linear.png> <./poly.png> <./pe.png> <./performan
+cetable.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 163--174
 
  []
@@ -614,41 +605,28 @@ Before submitting the final camera ready copy, remember to:
 [3
 
  <./mse.png>] (House Rent Price Prediction.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `"House Rent Price Prediction".out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"House Rent Price Prediction".out':
-
-(rerunfilecheck)             Before: 83F0B70DD8466B5108A6A3827D20FA71;1101
-(rerunfilecheck)             After:  F8B4FC6AC78DE52B09E54B6C097538A9;1359.
+Package rerunfilecheck Info: File `"House Rent Price Prediction".out' has not c
+hanged.
+(rerunfilecheck)             Checksum: F8B4FC6AC78DE52B09E54B6C097538A9;1359.
  ) 
 Here is how much of TeX's memory you used:
- 11950 strings out of 478864
- 185489 string characters out of 2850949
+ 11919 strings out of 478864
+ 184919 string characters out of 2850949
  505942 words of memory out of 3000000
- 29674 multiletter control sequences out of 15000+600000
+ 29656 multiletter control sequences out of 15000+600000
  447753 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,908b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.8} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/enc/dvips/base/8r.enc}<C:/Users/
-SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Us
-ers/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmb8a.pfb><C:
-/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmr8a.pfb><C:/User
-s/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (3 pages, 291439 bytes).
+{C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/enc/dvips/base/8r.enc}<C:/User
+s/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmr8a.pfb><C:/Us
+ers/SANIYAT SIMANTO/Desktop/Miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "House Rent Price Prediction.pdf" (3 pages, 296304 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
