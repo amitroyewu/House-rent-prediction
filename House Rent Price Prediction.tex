@@ -57,6 +57,16 @@ As we have discussed in the motivation part, house rent prediction work can be u
 \section{IMPLEMENTATION}
 \subsection{3.1 Data collection}
 The data is collected from Kaggle. The dataset is based on the house rental prices of different cities in India. There are 1,93,011 rows and 10 columns. The price attribute is the dependent attribute where the other nine attributes (Seller-Type, Bedroom, Layout-Type, Property-Type, Area, Furnish-Type, Bathroom and City) are independent attributes. Seller-Type is divided into Owner, Agent and Builder. There are two types of Layout. BHK (Bedroom, Hall, Kitchen) and RK (Room and Kitchen). Property-Type has many sub-types, such as Apartment, Studio Apartment, Independent House, Villa, Independent Floor and Penthouse). Furnish-Type is divided into three types. Semi-Furnished, Un-Furnished and Furnished.  Cities are: Ahmedabad, Bangalore, Delhi, Chennai, Pune, Mumbai, Kolkata, Hyderabad. We can ensure that, all data in the dataset are authentic.
+\subsection{3.2 Data processing}
+Here we have dropped locality because, for each row we have different locality. And for all non-numerical data we have used one hot encoding to convert it into a numeric form.\\
+For different types of property they assume them as different attributes. The encoding generates binary codes. A specific attribute has a specific binary number (0 or 1). 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{one hot encoding}
+\caption{ Non-numerical data processing by one hot encoding}
+\end{figure}
+For Seller-Type,Layout,Furnish-Type and City the non-numerical values are converted by same process.\\
+After that, we have dropped the previous non-numeric attributes and store the dataset. Then, we have merged the encoded attributes with the stored dataset and will finally get a wholesome dataset ready for regression classification.
 \subsection{3.3Model development}
 We have worked with 2 types of regression: linear and polynomial regression and will estimate the accuracy between the models. In our final dataset we have 193011 rows and 21 columns. The dataset is divided according to the attributes in two sets: one is independent set, and another is dependent set. Then we have divided them by test (20\%) and train (80\%) data. In train set, there are 154408 data and in test set, we have 38603 data.
 
@@ -161,6 +171,8 @@ Here, n = number of data points\\
 \textbf{3.Root Mean Square Error:}
 It is the most commonly used accuracy model for linear regression. RMSE is the standard deviation of predicted errors.It also shows how concentrated the points are around the best fitted line.The root square of mean square error is the RMSE. Though RMSE is sometimes instinctive,in our model it works as it should be. 
 \\
+\section{CONCLUSIONS}
+In this project our purpose was, to find and compare the accuracy between two types of linear regression models. for that, we have used linear regression and polynomial regression, and according to our test and trained data, the accuracy arrow shows that, in the renting price prediction model, if we use polynomial regression, we can get better result. We have used several accuracy model to prove our findings, as we have shown above.
 \bibliographystyle{IEEEtran}
 \bibliography{citation}
 
