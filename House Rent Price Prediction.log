@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  13 SEP 2021 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.8)  13 SEP 2021 01:08
 entering extended mode
 **"./House Rent Price Prediction.tex"
 (House Rent Price Prediction.tex
@@ -523,12 +523,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 (C:\Users\amitr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<methodology.png, id=58, 1083.29718pt x 510.40688pt>
+<methodology.png, id=62, 1083.29718pt x 510.40688pt>
 File: methodology.png Graphic file (type png)
 <use methodology.png>
 Package pdftex.def Info: methodology.png  used on input line 54.
 (pdftex.def)             Requested size: 216.6556pt x 102.07956pt.
-<one hot encoding.png, id=60, 471.26062pt x 161.85469pt>
+<one hot encoding.png, id=64, 471.26062pt x 161.85469pt>
 File: one hot encoding.png Graphic file (type png)
 <use one hot encoding.png>
 Package pdftex.def Info: one hot encoding.png  used on input line 65.
@@ -538,22 +538,22 @@ Package pdftex.def Info: one hot encoding.png  used on input line 65.
 
 
  <./methodology.png>]
-<pe.png, id=75, 578.16pt x 45.16875pt>
+<pe.png, id=79, 578.16pt x 45.16875pt>
 File: pe.png Graphic file (type png)
 <use pe.png>
 Package pdftex.def Info: pe.png  used on input line 103.
 (pdftex.def)             Requested size: 202.35902pt x 15.80928pt.
-<linear.png, id=76, 625.58719pt x 587.94656pt>
+<linear.png, id=80, 625.58719pt x 587.94656pt>
 File: linear.png Graphic file (type png)
 <use linear.png>
 Package pdftex.def Info: linear.png  used on input line 117.
 (pdftex.def)             Requested size: 103.19843pt x 96.98904pt.
-<poly.png, id=77, 622.57594pt x 586.44093pt>
+<poly.png, id=81, 622.57594pt x 586.44093pt>
 File: poly.png Graphic file (type png)
 <use poly.png>
 Package pdftex.def Info: poly.png  used on input line 124.
 (pdftex.def)             Requested size: 103.19843pt x 97.206pt.
-<performancetable.png, id=78, 1081.79156pt x 260.47313pt>
+<performancetable.png, id=82, 1081.79156pt x 260.47313pt>
 File: performancetable.png Graphic file (type png)
 <use performancetable.png>
 Package pdftex.def Info: performancetable.png  used on input line 136.
@@ -563,7 +563,7 @@ Overfull \hbox (18.44724pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-<mse.png, id=79, 337.26pt x 94.10156pt>
+<mse.png, id=83, 337.26pt x 94.10156pt>
 File: mse.png Graphic file (type png)
 <use mse.png>
 Package pdftex.def Info: mse.png  used on input line 161.
@@ -628,22 +628,15 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [3 <./mse.png>] (House Rent Price Prediction.aux)
-
-Package rerunfilecheck Warning: File `"House Rent Price Prediction".out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"House Rent Price Prediction".out':
-
-(rerunfilecheck)             Before: 66F2A927EA67C796DE1BA48D2306FB07;1639
-(rerunfilecheck)             After:  0683797FF28F8D1404EA4903E28C1893;1795.
+Package rerunfilecheck Info: File `"House Rent Price Prediction".out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 0683797FF28F8D1404EA4903E28C1893;1795.
  ) 
 Here is how much of TeX's memory you used:
- 11924 strings out of 478864
- 185751 string characters out of 2848661
+ 11925 strings out of 478864
+ 185767 string characters out of 2848661
  505945 words of memory out of 3000000
- 29658 multiletter control sequences out of 15000+600000
+ 29659 multiletter control sequences out of 15000+600000
  447753 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,908b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -655,9 +648,9 @@ Here is how much of TeX's memory you used:
 e1/urw/times/utmb8a.pfb><C:/Users/amitr/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Users/amitr/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on "House Rent Price Prediction.pdf" (3 pages, 298674 bytes).
+Output written on "House Rent Price Prediction.pdf" (3 pages, 299148 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
