@@ -102,6 +102,38 @@ We have run polynomial and linear regression function to train (80\%) our data. 
 \includegraphics[scale=0.25]{performancetable}
 \caption{ Accuracy table for linear and polynomial regression}
 \end{figure}
+\textbf{1.R2-Score:}
+It is the statistical measurement, that shows how close is our data to the fitted line of the regression. The higher value of R2-Score represents the better fitted value of our data. It provides the estimation of the strength relationship between response variable and our model.\\
+\\
+\textbf{R2-Score = SS\begin{footnotesize}
+regression
+\end{footnotesize}
+/ SS\begin{footnotesize}
+total
+\end{footnotesize}
+}\\
+\\
+Here, SS\begin{footnotesize}
+regression
+\end{footnotesize} means sum of squares. The square is between our predicted values and our test values and,\\
+ SS\begin{footnotesize}
+total
+\end{footnotesize} means the total sum of squares which measures the variation of our observed data.\\
+\\
+\textbf{2.Mean Square Error:}
+MSE is measured by calculating the distances(error) between the points to our regression line. In this case we need to calculate the average of the errors. The lowest MSE, the better model we get.In our observation, we get less MSE in polynomial regression.\\
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{mse}
+\end{figure}
+Here, n = number of data points\\
+      Y\begin{footnotesize}
+      i
+      \end{footnotesize} = observed values and,\\
+      Y\begin{footnotesize}
+      i
+      \end{footnotesize} = predicted values.\\
+\\      
 
 \bibliographystyle{IEEEtran}
 \bibliography{citation}
