@@ -111,7 +111,8 @@ Where,
 \subsection{3.4 Results}
 We have run polynomial and linear regression function to train (80\%) our data. Then test these algorithms by 20\% train data. Based on the test data we have run three types of accuracy function. R2-score, MSE (Mean Square Error) and RMSE (root Mean Square Error) is being used to find which of these two regressions is best for the dataset.
 
-\begin{figure}
+\begin{figure}[H]
+\centering
      \centering
      \begin{subfigure}[b]{0.2\textwidth}
          \centering
@@ -138,7 +139,7 @@ Here, we can see that, in polynomial regression, the points are nearer to the be
 \caption{ Accuracy table for linear and polynomial regression}
 \end{figure}
 \textbf{1.R2-Score:}
-It is the statistical measurement, that shows how close is our data to the fitted line of the regression. The higher value of R2-Score represents the better fitted value of our data\cite{r2}. It provides the estimation of the strength relationship between response variable and our model.\\
+It is the statistical measurement, that shows how close is our data to the fitted line of the regression. The higher value of R2-Score represents the better fitted value of our data. It provides the estimation of the strength relationship between response variable and our model.\\
 \\
 \textbf{R2-Score = SS\begin{footnotesize}
 regression
@@ -184,12 +185,5 @@ In this project we have used dataset containing scattered values. If we show n t
 We can flourish our model to a better version in the near future. Different kinds of evalution methods can be used. Using Cross validation method or Bootstrap can give it a better enlightenment according to our hypothesis. Though we have not tried that in our project, but we believe if we work on future we can make it to a better version and bring it to an another level.
 \bibliographystyle{IEEEtran}
 \bibliography{citation}
-\medskip
-\begin{thebibliography}{99}
-\bibitem{r2} 
-\texttt{https://corporatefinanceinstitute.com/
-resources/knowledge/other/r-squared/\#tab=tab\_1}
-
-\end{thebibliography}
 
 \end{document}
