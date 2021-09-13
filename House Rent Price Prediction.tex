@@ -11,6 +11,7 @@
 \usepackage{authblk}
 \usepackage{caption}
 \usepackage{subcaption}
+\bibliographystyle{unsrtnat}
 \begin{document}
 \title{House Rent Prediction using polynomial and linear regression}
 \author[1]{ Amit Roy
@@ -137,7 +138,7 @@ Here, we can see that, in polynomial regression, the points are nearer to the be
 \caption{ Accuracy table for linear and polynomial regression}
 \end{figure}
 \textbf{1.R2-Score:}
-It is the statistical measurement, that shows how close is our data to the fitted line of the regression. The higher value of R2-Score represents the better fitted value of our data. It provides the estimation of the strength relationship between response variable and our model.\\
+It is the statistical measurement, that shows how close is our data to the fitted line of the regression. The higher value of R2-Score represents the better fitted value of our data\cite{r2}. It provides the estimation of the strength relationship between response variable and our model.\\
 \\
 \textbf{R2-Score = SS\begin{footnotesize}
 regression
@@ -183,5 +184,12 @@ In this project we have used dataset containing scattered values. If we show n t
 We can flourish our model to a better version in the near future. Different kinds of evalution methods can be used. Using Cross validation method or Bootstrap can give it a better enlightenment according to our hypothesis. Though we have not tried that in our project, but we believe if we work on future we can make it to a better version and bring it to an another level.
 \bibliographystyle{IEEEtran}
 \bibliography{citation}
+\medskip
+\begin{thebibliography}{99}
+\bibitem{r2} 
+\texttt{https://corporatefinanceinstitute.com/
+resources/knowledge/other/r-squared/\#tab=tab\_1}
+
+\end{thebibliography}
 
 \end{document}
